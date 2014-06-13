@@ -9,11 +9,14 @@ License: GPLv2 or later
 
 
 Plugin that adds your Twitter account details box in your Wordpress site via widget.
-[Visit plugin site](http://tab.jannejuhani.net/)
 
 == Description ==
 
+Plugin that adds your Twitter account details box in your Wordpress site via widget.
+
 Work in progress... but it's working! Like this: https://raw.githubusercontent.com/0is1/wp-twitter-account-box/master/public/images/twitteraccountbox-example.png
+
+[Visit plugin site](http://tab.jannejuhani.net/)
 
 There's still things TODO:
 

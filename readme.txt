@@ -1,6 +1,6 @@
 === Twitter Account Box aka TAB ===
 
-Contributors: Janne Juhani Saarela aka 0is1
+Contributors: 0is1
 Tags: Twitter, Social Media, TAB
 Requires at least: ?
 Tested up to: 3.9.1

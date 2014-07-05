@@ -4,7 +4,7 @@ Contributors: 0is1
 Tags: Twitter, Social Media, widget
 Requires at least: ?
 Tested up to: 3.9.1
-Stable tag: 0.2.0
+Stable tag: 0.2.1
 License: GPLv2 or later
 
 
@@ -18,11 +18,16 @@ Work in progress... but it's working! Like this: https://raw.githubusercontent.c
 
 [Visit plugin site](http://tab.jannejuhani.net/)
 
-There's still things TODO:
+## Roadmap towards version 1.0
 
+This plugin works already. But there's still things TODO:
+* Add the possibility to show tweets as well
+* Enable Twitter authentication as default (maybe Premium?)
+* Figure out if it's possible to check if user already follows the account and show "Following"-button instead of "Follow"-button
+  * Maybe [GET friendships/exists](https://dev.twitter.com/docs/api/1/get/friendships/exists)
 * Enable shortcodes
 * Style admin panel options-page
-* Make TAB more responsive when it's included in small containers
+* Make TAB more responsive
 * Better error handling
 * Documentation
 * Test with different WP-versions
@@ -57,6 +62,11 @@ Please tell about it: janne [AT] jannejuhani.net
 Thanks!
 
 == Changelog ==
+
+= 0.2.1 =
+
+* Make TAB a little bit more responsive
+* Add some style defaults
 
 = 0.2.0 =
 

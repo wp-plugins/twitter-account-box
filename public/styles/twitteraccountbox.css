@@ -3,10 +3,15 @@
   border: 1px solid rgb(80, 80, 80);
   border: 1px solid rgba(40, 40, 40, 0.2);
   border-radius: 2px;
+  font-size: 100%;
   max-width: 550px;
 }
 #twitteraccountbox a{
   text-decoration: none;
+}
+#twitteraccountbox ul li{
+  background-image: none;
+  list-style: none;
 }
 #twitteraccountbox .twitteraccountbox-error {
   background-color: rgb(255, 255, 255);
@@ -79,6 +84,7 @@
 
 #twitteraccountbox .twitteraccountbox-details li:first-of-type{
   border-left:none;
+  padding: .25em .75em;
 }
 
 #twitteraccountbox .twitteraccountbox-details li span{
@@ -104,4 +110,10 @@
 }
 #twitteraccountbox .icon-twitter {
   color: rgb(0, 172, 238);
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+  #twitteraccountbox .twitteraccountbox-details .follow-button{
+    float: none;
+  }
 }

@@ -22,7 +22,6 @@ Work in progress... but it's working! Like this: https://raw.githubusercontent.c
 
 This plugin works already. But there's still things TODO:
 
-* Add the possibility to show tweets as well
 * Enable Twitter authentication as default (maybe Premium?)
 * Figure out if it's possible to check if user already follows the account and show "Following"-button instead of "Follow"-button
   * Maybe [GET friendships/exists](https://dev.twitter.com/docs/api/1/get/friendships/exists)
@@ -32,6 +31,7 @@ This plugin works already. But there's still things TODO:
 * Better error handling
 * Documentation
 * Test with different WP-versions
+* Add Stylus/SASS/LESS support
 
 == Installation ==
 

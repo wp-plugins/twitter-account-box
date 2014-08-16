@@ -2,9 +2,9 @@
 
 Contributors: 0is1
 Tags: Twitter, Social Media, widget
-Requires at least: ?
-Tested up to: 3.9.1
-Stable tag: 0.2.1
+Requires at least: 3.9.0
+Tested up to: 3.9.2
+Stable tag: 0.2.9
 License: GPLv2 or later
 
 
@@ -63,6 +63,11 @@ Please tell about it: janne [AT] jannejuhani.net
 Thanks!
 
 == Changelog ==
+
+= 0.2.9 =
+
+* Enable tweets
+* Add some styles
 
 = 0.2.1 =
 

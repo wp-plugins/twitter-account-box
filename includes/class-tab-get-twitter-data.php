@@ -36,7 +36,7 @@ if ( ! class_exists( 'TabGetTwitterData' ) ) {
      * @since    0.1.0
      * @var      array
      */
-    protected static $error = [];
+    protected static $error = array();
 
     private function __construct() {
       self::init();

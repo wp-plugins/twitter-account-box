@@ -3,8 +3,8 @@
 Contributors: 0is1
 Tags: Twitter, Social Media, widget
 Requires at least: 3.9.0
-Tested up to: 4.0
-Stable tag: 0.2.9.1
+Tested up to: 4.2
+Stable tag: 0.2.12
 License: GPLv2 or later
 
 
@@ -26,16 +26,19 @@ This plugin works already. But there's still things TODO:
 * Figure out if it's possible to check if user already follows the account and show "Following"-button instead of "Follow"-button
   * Maybe [GET friendships/exists](https://dev.twitter.com/docs/api/1/get/friendships/exists)
 * Style Tweet button and load Twitter images locally if user is using any "anti social media"-plugin in browser
-* Enable shortcodes
 * Style admin panel options-page
 * Make TAB more responsive
 * Better error handling
 * Documentation
 * Test with different WP-versions
-* Add Stylus/SASS/LESS support
+
+#### Shortcode
+* You can use this shortcode in posts and pages: [twitter_account_box]
 
 ### Next version: 0.3.0
-* Better error handling with tweet data
+* Better error handling with tweet data and code refactoring
+
+### Version: 0.4.0
 * Support to favorite tweets
 
 == Installation ==
@@ -50,14 +53,18 @@ This plugin works already. But there's still things TODO:
 
 1. Admin panel settings
 2. Twitter Account Box in action
-3. dev.twitter.com help #1
-4. dev.twitter.com help #2
+3. Go to dev.twitter.com and click "Developers -> Documentation"
+4. Click "Manage My Apps"
+5. Click "Create New App"
+6. Create Twitter App
+7. Go to "API-keys" page and click "Create Access Token"
+8. Get key, token and secrets
 
 == Frequently Asked Questions ==
 
 = How I get Twitter Consumer Key etc.? =
 
-You can get those from [Twitter Development-site](https://dev.twitter.com/). Sign in or create new account, after login click "My applications" (up right dropdown), click "Create New App" and complete the process. Then click "Create my access token"-button on "API Keys"-page (see screenshots).
+You can get those from [Twitter Development-site](https://dev.twitter.com/). Sign in or create new account, after login click "Developers -> Documentation" (top left dropdown), click "Manage My Apps", on the next page click "Create New App" and complete the process. Then click "Create my access token"-button on "API Keys"-page (see screenshots).
 
 == Debug ==
 
@@ -68,6 +75,20 @@ Please tell about it: janne [AT] jannejuhani.net
 Thanks!
 
 == Changelog ==
+
+= 0.2.12 =
+
+* Add support to shortcode: [twitter_account_box]
+* Some small code refactoring
+
+= 0.2.11 =
+
+* Add small style fixes
+
+= 0.2.10 =
+
+* Add some style fixes
+* Add better screenshots and info about how to register Twitter Application
 
 = 0.2.9.1 =
 
